@@ -24,7 +24,7 @@ function App() {
         };
 
         try {
-            const response = await fetch('http:///water-jug-challenge.test/api/v1/wjc/evaluate', {
+            const response = await fetch('http:///wjc.test/api/v1/wjc/evaluate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
